@@ -8,8 +8,7 @@
     text-align: center;
   }
   .section{
-    width: 100%;
-    height: 100vh;
+   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +25,4 @@
 
   .p-3 {
     padding: 0rem!important;
-}
-img {
-    width: 90rem;
 }
