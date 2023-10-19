@@ -1,0 +1,32 @@
+#navbar_top {
+    background-image: linear-gradient(to right, red, orange);
+  }
+  #logo{
+      font-family: 'Mate', serif;
+  }
+  #header_top{
+    text-align: center;
+  }
+  .section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .section:nth-child(odd){
+    background: rgb(255, 0, 255);
+  }
+  
+  .section:nth-child(even){
+    background-color: rgb(180, 88, 255);
+  }
+
+  .p-3 {
+    padding: 0rem!important;
+}
+img {
+    width: 90rem;
+}
