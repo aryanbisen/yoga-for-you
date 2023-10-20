@@ -71,5 +71,9 @@ body{
   }
   .card{
     border: 3px solid black;
-    min-width: 25rem;
+    min-width: 110%;
+   
+  }
+  .card > h5{
+    color: yellow;
   }
