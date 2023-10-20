@@ -8,7 +8,8 @@
     text-align: center;
   }
   .section{
-   
+   border: 0.4rem solid orange
+   ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,13 +17,59 @@
   }
   
   .section:nth-child(odd){
-    background: rgb(255, 0, 255);
+    background: rgb(0, 225, 255);
   }
   
   .section:nth-child(even){
-    background-color: rgb(180, 88, 255);
+    background-color: rgb(0, 243, 32);
   }
 
   .p-3 {
     padding: 0rem!important;
 }
+
+#title {
+    margin-bottom: 20%;
+}
+#carouselExampleCaptions{
+    margin: 0px 4% 4%;
+    
+}
+body{
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(51, 255, 0));
+}
+
+.d-md-block {
+    display: block!important;
+}
+#titleOne{
+    width: 100%;
+}
+#scrollspyHeading1{
+    margin: 0pc 2% 2%;
+}
+#content{
+    padding: 2rem;
+    text-align: justify;
+
+}
+.col > h1{
+    text-align: center;
+   
+}
+.col > img{
+    margin: 0rem 0rem 1rem 1rem;
+    border: 3px solid orange;
+    
+}
+/* Style the dropdown menu when it's shown on hover */
+.dropdown-menu.show {
+    display: block; /* Ensure the menu is visible */
+    opacity: 1; /* Set the opacity to fully visible */
+    visibility: visible; /* Make it visible */
+    transition: all 0.3s; /* Add a smooth transition effect */
+  }
+  .card{
+    border: 3px solid black;
+    min-width: 25rem;
+  }
