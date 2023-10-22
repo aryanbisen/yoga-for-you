@@ -1,0 +1,107 @@
+#navbar_top {
+  background-image: linear-gradient(to left,#0a92ad,#62d7ee);
+}
+#logo{
+    font-family: 'Mate', serif;
+}
+#header_top{
+  text-align: center;
+}
+.section{
+ border: 0.4rem solid#0dcaf0
+ ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+.section:nth-child(odd){
+  background: rgb(255, 255, 255);
+}
+
+.section:nth-child(even){
+  background-color: rgb(255, 255, 255);
+}
+
+.p-3 {
+  padding: 0rem!important;
+}
+
+#title {
+  margin-bottom: 20%;
+}
+#carouselExampleCaptions{
+  margin: 0px 4% 4%;
+  
+}
+body{
+  background-image: linear-gradient(to top,#eefcff,#95edff);
+
+}
+
+.d-md-block {
+  display: block!important;
+}
+#titleOne{
+  width: 100%;
+}
+#scrollspyHeading1{
+  margin: 0pc 2% 2%;
+}
+#content{
+  padding: 2rem;
+  text-align: justify;
+
+}
+.col > h1{
+  text-align: center;
+ 
+}
+.col > img{
+  margin: 0rem 0rem 1rem 1rem;
+  border: 3px solid #0dcaf0;
+  
+}
+/* Style the dropdown menu when it's shown on hover */
+.dropdown-menu.show {
+  display: block; /* Ensure the menu is visible */
+  opacity: 1; /* Set the opacity to fully visible */
+  visibility: visible; /* Make it visible */
+  transition: all 0.3s; /* Add a smooth transition effect */
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.popular{
+  line-height: 38px;
+  color: #ffff;
+  font-size: x-large;
+  padding: 0.7rem 0.7rem;
+
+
+}
+#popular-card{
+  top: 0%;
+}
+.card{
+  top: 10%;
+}
+#cardImg{
+  opacity:0.7;
+  transition: 1s ease;  }
+  
+ #cardImg:hover{
+  opacity:1;
+  transition: 0.5s ease;
+  }
