@@ -1,67 +1,64 @@
 #navbar_top {
-  background-image: linear-gradient(to left,#0a92ad,#62d7ee);
+  background-image: linear-gradient(to left, #0a92ad, #62d7ee);
 }
-#logo{
-    font-family: 'Mate', serif;
+#logo {
+  font-family: "Mate", serif;
 }
-#header_top{
+#header_top {
   text-align: center;
 }
-.section{
- border: 0.4rem solid#0dcaf0
- ;
+.section {
+  border: 0.4rem solid#0dcaf0;
   display: flex;
   align-items: center;
   justify-content: center;
   color: rgb(0, 0, 0);
 }
 
-.section:nth-child(odd){
+.section:nth-child(odd) {
   background: rgb(255, 255, 255);
 }
 
-.section:nth-child(even){
+.section:nth-child(even) {
   background-color: rgb(255, 255, 255);
 }
 
 .p-3 {
-  padding: 0rem!important;
+  padding: 0rem !important;
 }
 
+#title > h1 {
+  -webkit-text-stroke: 0.6px #000000;
+}
 #title {
-  margin-bottom: 20%;
+  margin-bottom: 30%;
 }
-#carouselExampleCaptions{
+#carouselExampleCaptions {
   margin: 0px 4% 4%;
-  
 }
-body{
-  background-image: linear-gradient(to top,#eefcff,#95edff);
-
+body {
+  background-image: linear-gradient(to top, #eefcff, #95edff);
 }
 
 .d-md-block {
-  display: block!important;
+  display: block !important;
 }
-#titleOne{
+#titleOne {
   width: 100%;
 }
-#scrollspyHeading1{
+#scrollspyHeading1 {
   margin: 0pc 2% 2%;
 }
-#content{
+#content {
   padding: 2rem;
   text-align: justify;
-
 }
-.col > h1{
+.col > h1 {
   text-align: center;
- 
 }
-.col > img{
+.col > img {
   margin: 0rem 0rem 1rem 1rem;
   border: 3px solid #0dcaf0;
-  
 }
 /* Style the dropdown menu when it's shown on hover */
 .dropdown-menu.show {
@@ -83,25 +80,184 @@ body{
     font-size: 3.5rem;
   }
 }
-.popular{
+.popular {
   line-height: 38px;
   color: #ffff;
   font-size: x-large;
   padding: 0.7rem 0.7rem;
-
-
 }
+h1 {
+  text-align: center;
+}
+/*
 #popular-card{
   top: 0%;
 }
 .card{
   top: 10%;
+
 }
-#cardImg{
-  opacity:0.7;
-  transition: 1s ease;  }
-  
- #cardImg:hover{
-  opacity:1;
+*/
+#cardImg {
+  opacity: 0.8;
+  transition: 1s ease;
+}
+
+#cardImg:hover {
+  opacity: 1;
   transition: 0.5s ease;
+  border: 1rem solid #0dcaf0;
+}
+@media (min-width: 992px) {
+  /* Apply styles for screens larger than 991px (large screens) */
+  .card {
+    position: relative; /* Set position to relative to use top property */
+    top: 10%; /* Add top property to move the card down by 10% */
   }
+}
+@media (min-width: 992px) {
+  /* Apply styles for screens larger than 991px (large screens) */
+  #popular-card {
+    position: relative; /* Set position to relative to use top property */
+    top: 0%; /* Add top property to move the card down by 10% */
+  }
+}
+
+.quote {
+  font-size: x-large;
+  text-align: center;
+  font-style: italic;
+  color: #0a92ad;
+  margin-top: -0.3%;
+  margin-bottom: 0.5%;
+}
+#about-me {
+  margin: 2% 5% 5%;
+}
+.col-6 > p {
+  font-size: larger;
+  text-align: end;
+  line-height: 200%;
+}
+#about-me-image {
+  border: 2px solid #0dcaf0;
+}
+#pricingFooterText {
+  text-align: center;
+}
+#carousel-img {
+  
+}
+
+/* Importing fonts from Google */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Reseting */
+
+#scrollspyHeading4 {
+  background-image: linear-gradient(to top, #026478, #62d7ee);
+ 
+  min-height: 100vh;
+  display: block;
+  
+}
+
+#tcontainer {
+  margin-top: 80px;
+}
+
+#tcontainer .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+#tcard {
+  width: 300px;
+  height: 300px;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  border: none;
+  background-color: inherit;
+}
+
+#tcard .face {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.06);
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  backface-visibility: hidden;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  /* border-right: 1px solid #999;
+border-bottom: 1px solid #999; */
+}
+
+#tcard .face.front-face,
+#tcard .face.back-face {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#tcard .face.front-face .profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#tcard .face.front-face .name {
+  letter-spacing: 2px;
+}
+
+#tcard .face.front-face .designation {
+  font-size: 0.8rem;
+  color: #ddd;
+  letter-spacing: 0.8px;
+}
+
+#tcard:hover .face.front-face {
+  transform: rotateY(180deg);
+}
+
+#tcard .face.back-face {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.06);
+  transform: rotateY(180deg);
+  padding: 20px 30px;
+  text-align: center;
+  user-select: none;
+}
+
+#tcard .face.back-face .fa-quote-left {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 1.2rem;
+}
+
+#tcard .face.back-face .fa-quote-right {
+  position: absolute;
+  bottom: 35px;
+  right: 25px;
+  font-size: 1.2rem;
+}
+
+#tcard:hover .face.back-face {
+  transform: rotateY(360deg);
+}
+
+@media (max-width: 991.5px) {
+  .col-lg-4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
