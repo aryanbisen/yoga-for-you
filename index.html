@@ -1,551 +1,508 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
 
-    <title>Bootstrap Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    
+  <title>Bootstrap Site</title>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-    href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Mate:ital@1&family=Work+Sans:wght@200;300;400;500;600;700&display=swap" 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Mate:ital@1&family=Work+Sans:wght@200;300;400;500;600;700&display=swap"
     rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css" />
-    
-  </head>
 
-  <body>
-    <header>
-      <div id="header_top" class="bg-light py-2"> 
-       Birmenstorf AG - <a href="registerPage.html">Resister now for a trial class</a> 
-       </div>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <header>
+    <div id="header_top" class="bg-light py-2">
+      Birmenstorf AG - <a href="registerPage.html">Resister now for a trial class</a>
+    </div>
     <nav id="navbar_top" class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid" >
+      <div class="container-fluid">
         <a id="logo" class="navbar-brand" href="/">YogaForYou</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul  class="navbar-nav me-auto mb-2 mb-lg-0">
-           
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
             <li class="nav-item dropdown" id="hover-dropdown">
-                <a class="nav-link dropdown-toggle" href="#pricing"  aria-expanded="false">
-                  Pricing
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" onclick="location.href='/group-session.html'">Group Session</a></li>
-                  <li><a class="dropdown-item" onclick="location.href='/private-session.html'">Private Session</a></li>
-                  <li>
-                    <a class="dropdown-item" onclick="location.href='/online-session.html'">Online Session</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#testemonials">Testemonials</a>
-              </li>
+              <a class="nav-link dropdown-toggle" href="#pricing" aria-expanded="false">
+                Pricing
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" onclick="location.href='/group-session.html'">Group Session</a></li>
+                <li><a class="dropdown-item" onclick="location.href='/private-session.html'">Private Session</a></li>
+                <li>
+                  <a class="dropdown-item" onclick="location.href='/online-session.html'">Online Session</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#testemonials">Testemonials</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#my-journey">My Journey</a>
             </li>
-           
+
             <li class="nav-item">
               <a class="nav-link" href="#benefits">Benefits</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/registerPage.html">Contact Us</a>
+            </li>
           </ul>
-          
+          <ul class="nav navbar-nav navbar-right">
+
+
+
+
+            <li>
+              <a href="/registerPage.html">
+                <button type="button" class="btn btn-primary btn-small btn-nav button-21"
+                  onclick="location.href='/registerPage.html'">Register now</button></a>
+            </li>
+
+
         </div>
       </div>
     </nav>
-    <main
-      data-bs-spy="scroll"
-      data-bs-target="#navbar-example2"
-      data-bs-root-margin="0px 0px -40%"
-      data-bs-smooth-scroll="true"
-      class="scrollspy-example bg-body-tertiary p-3 rounded-2"
-      tabindex="0"
-    >
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
 
   </header>
-    <div data-bs-interval="2500" id="carouselExampleCaptions" class="carousel slide">
-      <div  class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div  class="carousel-inner">
-        <div class="carousel-item active">
-          <img id="carousel-img" src="yoga-tree.png" class="d-block w-100" alt="...">
-          <div id="carousel-caption" class="carousel-caption d-none d-md-block">
-            <div class="background-image">
-      
-      
-              <div id="title" class="main-container">
-                <h1 id="carousel-title" class="display-4 fw-bold">
-Welcome to YogaForYou
-                </h1>
-                <h4>Why you should start Yoga</h4>
-            <p>
-          
-    
-                  <button onclick="location.href='/#benefits'" class="button-21"  role="button">See all benefits</button>
+  <div data-bs-interval="2500" id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img id="carousel-img" src="yoga-tree.png" class="d-block w-100" alt="...">
+        <div id="carousel-caption" class="carousel-caption d-none d-md-block">
+          <div class="background-image">
 
 
-            </p>
-        
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img id="carousel-img" src="yoga.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <div class="background-image">
-      
-              <div id="title" class="main-container">
-                <h1 id="carousel-title" class="display-4 fw-bold">
-                  My Yoga journey
-                </h1> 
-            <h4>Why I started yoga and how it helped me out</h4>
-            <button onclick="location.href='/#my-journey'" class="button-21" role="button">About me</button>
+            <div id="title" class="main-container">
+              <h1 id="carousel-title" class="display-4 fw-bold">
+                Welcome to YogaForYou
+              </h1>
+              <h4>Why you should start Yoga</h4>
+              <p>
 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img id="carousel-img" src="group-course.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <div class="background-image">
-             
-      
-              <div id="title" class="main-container">
-                <h1 id="carousel-title" class="display-4 fw-bold">
-                    Start your Yoga journey now!
-                </h1> <h3>Visit a free trial class</h3>
-            <h6>Payment is done after you liked the trial class!</h6>
-            <button type="button" onclick="location.href='/registerPage.html'" class="btn btn-info">Register Now</button>
 
-              </div>
+                <button onclick="location.href='/#benefits'" class="button-21" role="button">See all benefits</button>
+
+
+              </p>
+
             </div>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
- 
+      <div class="carousel-item">
+        <img id="carousel-img" src="yoga.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="background-image">
 
-        <section id="benefits" class="section">
-          <div id="section-info" class="container-fluid">
-            <div class="row">
-                <h1 class="display-4 fw-normal">The benefits of yoga</h1>
-            </div>
-            <div class="row">
-                <div class="quote">
-                   How Yoga can expand your lifespan up to 15 Years
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-12"> <!-- Use col-lg-6 for medium and large screens, col-md-12 for small screens -->
-                    <p id="benefits-text">
-                      Yoga, originating in India, is more than a physical practice. It
-                      strengthens the body, improves flexibility, and fosters mental well-being.
-                      Through a combination of poses and mindful breathing, it reduces stress
-                      and enhances focus, memory, and emotional resilience. Yoga promotes
-                      emotional balance, self-awareness, and proper alignment, alleviating
-                      chronic pain and enhancing posture. Mindful breathing enhances lung
-                      capacity and vitality. It supports weight management and healthier living,
-                      improves sleep quality, and fosters a sense of community. Often regarded
-                      as an "elixir of youth," it can lead to a more youthful appearance and
-                      personal growth. In conclusion, yoga is a transformative journey of
-                      well-being for both body and mind, enhancing physical fitness and
-                      emotional tranquility, and guiding you toward a more fulfilling life.
-                      Whether seeking physical fitness, mental serenity, or personal growth,
-                      yoga can be a guiding light on this journey.
-                    </p>
-                </div>
-                <div class="col-lg-6 col-md-12"> <!-- Use col-lg-6 for medium and large screens, col-md-12 for small screens -->
-                    <img id="about-me-image" src="about-me-img.jpg" class="img-fluid" alt="...">
-                </div>
-            </div>
-        </div>
-        </section>
-    
-            
-        <section id="pricing" class="section">
-          <div class="container py-3">
-            <header>
-            
-          
-              <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal">Pricing</h1>
-                <p class="fs-5 text-muted">
-                  Join Yoga classes now for a little amount of money
-                </p>
-              </div>
-            </header>
-          
-            <main>
-              <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                <div class="col">
-                  <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                      <h4 class="my-0 fw-normal">Online Session</h4>
-                    </div>
-                    <img id="cardImg" src="online-course.jpg" class="border border-info" alt="">
+            <div id="title" class="main-container">
+              <h1 id="carousel-title" class="display-4 fw-bold">
+                My Yoga journey
+              </h1>
+              <h4>Why I started yoga and how it helped me out</h4>
+              <button onclick="location.href='/#my-journey'" class="button-21" role="button">About me</button>
 
-                    <div class="card-body">
-                      <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-                      <ul class="list-unstyled mt-3 mb-4">
-                        <li>Free Trial Class</li>
-                        <li>Your location doesn't matter</li>
-                        <li>Every Thurday</li>
-                        <li>---</li>
-                      </ul>
-                      <button type="button" onclick="location.href='/online-session.html'" class="w-100 btn btn-lg btn-info text-white">Sign up for free</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div id="popular-card" class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                      <h4 class="my-0 fw-normal">Group session</h4>
-                    </div>
-                    <img id="cardImg" src="group-course.jpg" class="border border-info" alt="">
-                    <div class="popular bg-info">
-                      Most Popular
-                  </div>
-                    <div class="card-body">
-                      <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-                      <ul class="list-unstyled mt-3 mb-4">
-                        <li>Free Trial Class</li>
-                        <li>Every Thursday and Saturday</li>
-                        <li>---</li>
-                        <li>---</li>
-                      </ul>
-                      <button type="button" onclick="location.href='/group-session.html'" class="w-100 btn btn-lg btn-info text-white">Get started</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                      <h4 class="my-0 fw-normal">Private Session</h4>
-                    </div>
-                    <img id="cardImg" src="private-course.jpg" class="border border-info" alt="">
-
-                    <div class="card-body">
-                      <h1 class="card-title pricing-card-title">$59<small class="text-muted fw-light">/mo</small></h1>
-                      <ul class="list-unstyled mt-3 mb-4">
-                        <li>Free Trial Class</li>
-                        <li>We shedule the timing together</li>
-                        <li>---</li>
-                        <li>---</li>
-                      </ul>
-                      <button type="button" onclick="location.href='/private-session.html'" class="w-100 btn btn-lg btn-info text-white">Contact us</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          <p class="fs-5 text-muted" id="pricingFooterText">The payment is done after you liked the trial class</p>
-            </main>
-          
-        </section>
-    
-            
-        <section id="my-journey" class="section">
-          <div id="section-info" class="container-fluid">
-            <div class="row">
-                <h1 class="display-4 fw-normal">My Journey</h1>
-            </div>
-            <div class="row">
-                <div class="quote">
-                    "quote quote quote quote quote quote quote quote quote quote quote quote quote."
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-12"> <!-- Use col-lg-6 for medium and large screens, col-md-12 for small screens -->
-                    <p style="text-align: justify;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Pellentesque sit amet porttitor eget dolor. Ac auctor augue mauris augue neque gravida in 
-                        fermentum. Tellus elementum sagittis vitae et leo duis ut diam. Libero id faucibus nisl tincidunt eget nullam. 
-                        Non arcu risus quis varius quam quisque id diam. Eget nunc lobortis mattis aliquam. Justo eget magna fermentum 
-                        iaculis. Quam quisque id diam vel. In aliquam sem fringilla ut morbi. Lorem ipsum dolor sit amet, consectetur 
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque sit amet 
-                        porttitor eget dolor. Ac auctor augue mauris augue neque gravida in fermentum. Tellus elementum sagittis vitae 
-                        et leo duis ut diam. Libero id faucibus nisl tincidunt eget nullam. Non arcu risus quis varius quam quisque id 
-                        diam. Eget nunc lobortis mattis aliquam. Justo eget magna fermentum iaculis. Quam quisque id diam vel. In aliquam 
-                        sem fringilla ut morbi. Lorem ipsum dolor sit amet, con
-                    </p>
-                </div>
-                <div class="col-lg-6 col-md-12"> <!-- Use col-lg-6 for medium and large screens, col-md-12 for small screens -->
-                    <img id="about-me-image" src="about-me-img.jpg" class="img-fluid" alt="...">
-                </div>
-            </div>
-        </div>
-        
-        </section>
-    
-            
-        <section id="testemonials" class="section">
-      
-          <h1 class="display-4 fw-normal">Testemonials</h1>
-          <div id="tcontainer" class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div id="tcard" class="card">
-                        <div class="face front-face">
-                            <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
-                                alt="" class="profile">
-                            <div class="pt-3 text-uppercase name">
-                                Robert Garrison
-                            </div>
-                            <div class="designation">Aarau AG</div>
-                        </div>
-                        <div class="face back-face">
-                            <span class="fas fa-quote-left"></span>
-                            <div class="testimonial">
-                                I made bacck the purchase price in just 48 hours! Thank you for making it pain less,
-                                pleasant.
-                                The service was execellent. I will refer everyone I know.
-                            </div>
-                            <span class="fas fa-quote-right"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div id="tcard" class="card">
-                        <div class="face front-face">
-                            <img src="max-testemonial.png"
-                                alt="" class="profile">
-                            <div class="pt-3 text-uppercase name">
-                                Maximiian Nöthe
-                            </div>
-                            <div class="designation">Zug ZG</div>
-                        </div>
-                        <div class="face back-face">
-                            <span class="fas fa-quote-left"></span>
-                            <div class="testimonial">
-                                Really good, you have saved our business! I made bacck the purchase price in just 48 hours!
-                                man, this thing is getting better and better as I learn more about it.
-                            </div>
-                            <span class="fas fa-quote-right"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div id="tcard" class="card">
-                        <div class="face front-face">
-                            <img src="https://images.unsplash.com/photo-1614574762522-6ac2fbba2208?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjY2fHxtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                                alt="" class="profile">
-                            <div class="pt-3 text-uppercase name">
-                                Issac Maxwell
-                            </div>
-                            <div class="designation">Baden AG </div>
-                        </div>
-                        <div class="face back-face">
-                            <span class="fas fa-quote-left"></span>
-                            <div class="testimonial">
-                                Account keeper is the most valuable business research we have EVER purchased. Without
-                                electrician, we would ahave gone bankrupt by now.
-                            </div>
-                            <span class="fas fa-quote-right"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </section>
-        
-        <section id="FAQ" class="section">
-          <div class="accordion" id="accordionPanelsStayOpenExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                  A good and interesting question
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
             </div>
           </div>
-        </section>
-        
-    
-     <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
-  <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div  id="footer" class="me-5 d-none d-lg-block">
-      <span>            Please contact me if you have any Questions
-      </span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
-
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Yoga For You
-          </h6>
-          <p>
-----          </p>
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-       
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Courses</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> Birmenstorf AG, 5413, CH</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            yogaforyou@gmail.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 41 76 723 55 44</p>
-        </div>
-        <!-- Grid column -->
       </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
+      <div class="carousel-item">
+        <img id="carousel-img" src="group-course.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="background-image">
 
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2023 Copyright:
-    <a class="text-reset fw-bold" href="https://yogaforyou.com/">YogaForYou.com</a>
+
+            <div id="title" class="main-container">
+              <h1 id="carousel-title" class="display-4 fw-bold">
+                Start your Yoga journey now!
+              </h1>
+              <h3>Visit a free trial class</h3>
+              <h6>Payment is done after you liked the trial class!</h6>
+              <button type="button" onclick="location.href='/registerPage.html'" class="btn btn-info">Register
+                Now</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
 
 
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <section id="benefits" class="section">
+    <div id="section-info" class="container-fluid">
+      <div class="row">
+        <h1 class="display-4 fw-normal">The benefits of yoga</h1>
+      </div>
+      <div class="row">
+        <div class="quote">
+          How Yoga can expand your lifespan up to 15 Years
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12"> <!-- Use col-lg-6 for medium and large screens, col-md-12 for small screens -->
+          <p id="benefits-text">
+            Yoga, originating in India, is more than a physical practice. It
+            strengthens the body, improves flexibility, and fosters mental well-being.
+            Through a combination of poses and mindful breathing, it reduces stress
+            and enhances focus, memory, and emotional resilience. Yoga promotes
+            emotional balance, self-awareness, and proper alignment, alleviating
+            chronic pain and enhancing posture. Mindful breathing enhances lung
+            capacity and vitality. It supports weight management and healthier living,
+            improves sleep quality, and fosters a sense of community. Often regarded
+            as an "elixir of youth," it can lead to a more youthful appearance and
+            personal growth. In conclusion, yoga is a transformative journey of
+            well-being for both body and mind, enhancing physical fitness and
+            emotional tranquility, and guiding you toward a more fulfilling life.
+            Whether seeking physical fitness, mental serenity, or personal growth,
+            yoga can be a guiding light on this journey.
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-12"> <!-- Use col-lg-6 for medium and large screens, col-md-12 for small screens -->
+          <img id="about-me-image" src="about-me-img.jpg" class="img-fluid" alt="...">
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <script>
-    // Add a hover event to the dropdown toggle link
-    document.getElementById('hover-dropdown').addEventListener('mouseenter', function () {
-      document.querySelector('.dropdown-menu').classList.add('show');
-    });
+
+  <section id="pricing" class="section">
+    <div class="container py-3">
+      <header>
+
+
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal">Pricing</h1>
+          <p class="fs-5 text-muted">
+            Join Yoga classes now for a little amount of money
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Online Session</h4>
+              </div>
+              <img id="cardImg" src="online-course.jpg" class="border border-info" alt="">
+
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">CHF 15<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Free Trial Class</li>
+                  <li>Your location doesn't matter</li>
+                  <li>We shedule the timings together</li>
+                  <li>I teach you helpful exercises</li>
+                </ul>
+                <button type="button" onclick="location.href='/online-session.html'"
+                  class="w-100 btn btn-lg btn-info text-white">Online Session</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div id="popular-card" class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Group session</h4>
+              </div>
+              <img id="cardImg" src="group-course.jpg" class="border border-info" alt="">
+              <div class="popular bg-info">
+                Most Popular
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">CHF 15<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Free Trial Class</li>
+                  <li>Every Thursday and Saturday</li>
+                  <li>Every lesson there's something new to learn</li>
+                  <li>Like a Yoga family</li>
+                </ul>
+                <button type="button" onclick="location.href='/group-session.html'"
+                  class="w-100 btn btn-lg btn-info text-white">Group Session</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Private Session</h4>
+              </div>
+              <img id="cardImg" src="private-course.jpg" class="border border-info" alt="">
+
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">CHF 39<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Free Trial Class</li>
+                  <li>We shedule the timing together</li>
+                  <li>We handle your problem or concern together</li>
+                  <li>I teach you helpful exercises</li>
+                </ul>
+                <button type="button" onclick="location.href='/private-session.html'"
+                  class="w-100 btn btn-lg btn-info text-white">Private Session</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="fs-5 text-muted" id="pricingFooterText">The payment is done after you liked the trial class</p>
+      </main>
+
+  </section>
+
+
+  <section id="my-journey" class="section">
+    <div id="section-info" class="container-fluid">
+      <div class="row">
+        <h1 class="display-4 fw-normal">My Journey</h1>
+      </div>
+      <div class="row">
+        <div class="quote">
+          "A strong mind can carry a weak body, but a weak mind can't even carry a strong body."
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12"> <!-- Use col-lg-6 for medium and large screens, col-md-12 for small screens -->
+          <p style="text-align: justify;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Pellentesque sit amet porttitor eget dolor. Ac auctor augue mauris augue neque gravida in
+            fermentum. Tellus elementum sagittis vitae et leo duis ut diam. Libero id faucibus nisl tincidunt eget
+            nullam.
+            Non arcu risus quis varius quam quisque id diam. Eget nunc lobortis mattis aliquam. Justo eget magna
+            fermentum
+            iaculis. Quam quisque id diam vel. In aliquam sem fringilla ut morbi. Lorem ipsum dolor sit amet,
+            consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque sit amet
+            porttitor eget dolor. Ac auctor augue mauris augue neque gravida in fermentum. Tellus elementum sagittis
+            vitae
+            et leo duis ut diam. Libero id faucibus nisl tincidunt eget nullam. Non arcu risus quis varius quam quisque
+            id
+            diam. Eget nunc lobortis mattis aliquam. Justo eget magna fermentum iaculis. Quam quisque id diam vel. In
+            aliquam
+            sem fringilla ut morbi. Lorem ipsum dolor sit amet, con
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-12"> <!-- Use col-lg-6 for medium and large screens, col-md-12 for small screens -->
+          <img id="about-me-image" src="about-me-img.jpg" class="img-fluid" alt="...">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="testemonials" class="section">
+
+    <h1 class="display-4 fw-normal">Testemonials</h1>
+    <div id="tcontainer" class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div id="tcard" class="card">
+            <div class="face front-face">
+              <img
+                src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+                alt="" class="profile">
+              <div class="pt-3 text-uppercase name">
+                Robert Garrison
+              </div>
+              <div class="designation">Aarau AG</div>
+            </div>
+            <div class="face back-face">
+              <span class="fas fa-quote-left"></span>
+              <div class="testimonial">
+                "I can't say enough about the transformation I experienced through this yoga course. It's been a journey
+                of self-discovery, inner peace, and increased flexibility. The instructors are incredibly knowledgeable
+                and supportive, creating a welcoming and positive environment. I've not only improved my physical
+                strength but also found a sense of serenity in my daily life."
+              </div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div id="tcard" class="card">
+            <div class="face front-face">
+              <img src="max-testemonial.png" alt="" class="profile">
+              <div class="pt-3 text-uppercase name">
+                Maximiian Nöthe
+              </div>
+              <div class="designation">Zug ZG</div>
+            </div>
+            <div class="face back-face">
+              <span class="fas fa-quote-left"></span>
+              <div class="testimonial">
+                "Taking this yoga course was a transformative experience.
+                Ranjana is incredibly knowledgeable and creates a welcoming, peaceful atmosphere.
+                I've gained not only flexibility and strength but also a deep sense of inner calm
+                and mindfulness. I highly recommend this course to anyone seeking physical and mental well-being."
+              </div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div id="tcard" class="card">
+            <div class="face front-face">
+              <img
+                src="https://images.unsplash.com/photo-1614574762522-6ac2fbba2208?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjY2fHxtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                alt="" class="profile">
+              <div class="pt-3 text-uppercase name">
+                Issac Maxwell
+              </div>
+              <div class="designation">Baden AG </div>
+            </div>
+            <div class="face back-face">
+              <span class="fas fa-quote-left"></span>
+              <div class="testimonial">
+                "I can't express how transformative this yoga course has been for me. The
+                combination of expert guidance and a welcoming community created an environment
+                where I not only improved my physical strength and flexibility but also found a
+                deep sense of inner peace and balance."
+              </div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="text-center text-lg-start bg-light text-muted">
   
-    // Add a mouseleave event to hide the dropdown when the mouse leaves the dropdown area
-    document.querySelector('.dropdown-menu').addEventListener('mouseleave', function () {
-      document.querySelector('.dropdown-menu').classList.remove('show');
-    });
-  </script>
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div id="footer" class="me-5 d-none d-lg-block">
+        <span> Please contact me if you have any Questions
+        </span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+   
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Yoga For You
+            </h6>
+            <p>
+              ---- </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#pricing" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="/registerPage.html" class="text-reset">Register now</a>
+            </p>
+            <p>
+              <a href="#my-journey" class="text-reset">About me</a>
+            </p>
+            <p>
+              <a href="/group-session.html" class="text-reset">Group Session course</a>
+            </p>
+          </div>
+   
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Birmenstorf AG, 5413, CH</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              yogaforyou@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 41 76 723 55 44</p>
+          </div>
+       
+        </div>
+    
+      </div>
+    </section>
   
-  <script src="navcheck.js"></script>
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://yogaforyou.com/">YogaForYou.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+  // Add a hover event to the dropdown toggle link
+  document.getElementById('hover-dropdown').addEventListener('mouseenter', function () {
+    document.querySelector('.dropdown-menu').classList.add('show');
+  });
+
+  // Add a mouseleave event to hide the dropdown when the mouse leaves the dropdown area
+  document.querySelector('.dropdown-menu').addEventListener('mouseleave', function () {
+    document.querySelector('.dropdown-menu').classList.remove('show');
+  });
+</script>
+
+<script src="navcheck.js"></script>
+
 </html>
